@@ -1,0 +1,38 @@
+.start-header-content{
+    width: 90%;
+}
+
+.start-header-title{
+    font-size: 45px;
+}
+
+.start-header-description{
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.video-content-wrapper{
+    width: 90%;
+    margin: 0% 0% 3% 5%;
+}
+
+.video-content-ul{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 50px;
+}
+
+.video-a{
+    display: block;
+    text-decoration-line: none;
+    color: black;
+    margin: 0;
+    padding: 16px 0;
+    transition: all .3s;
+    background: transparent;
+    border-bottom: 2px solid black;
+}
+
+.video-a:hover{
+    background: rgb(231, 220, 220);
+}

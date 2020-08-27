@@ -1,0 +1,108 @@
+.homepage-section-content{
+    display: grid;
+    width: 90%;
+    grid-template-rows: repeat(6,[row] 15.8%);
+    grid-template-columns: repeat(5,[col] 19.2%);
+    grid-gap: 18px;
+    margin-left: 3%;
+    padding-bottom:1%;
+    padding-top: 3%;
+}
+
+.section{
+    padding-left: 4%;
+}
+
+.content1{
+    grid-row:  row / span 1;
+    grid-column: col / span 3;
+    background-image: url(1pattern.png);
+}
+
+.content2{
+    grid-row:  row / span 1;
+    grid-column: col 4 / span 2;
+    background-image: url(2pattern-tiny.png);
+}
+
+.content3{
+    grid-row:  row 2 / span 1;
+    grid-column: col / span 5;
+    background-color: blueviolet;
+    background-image: url(1pattern.png);
+}
+
+.content4{
+    grid-row:  row 3 / span 1;
+    grid-column: col / span 3;
+    background-image: url(2pattern-tiny.png);
+}
+
+.content5{
+    grid-row:  row 3/ span 1;
+    grid-column: col 4/ span 2;
+    background-image: url(2pattern-tiny.png);
+}
+
+.content6{
+    grid-row:  row 4/ span 1;
+    grid-column: col 1/ span 3;
+    background-image: url(2pattern-tiny.png);
+}
+
+.content7{
+    grid-row:  row 4 / span 1;
+    grid-column: col 4 / span 2;
+    background-image: url(2pattern-tiny.png);
+}
+
+.content8{
+    grid-row:  row 5/ span 1;
+    grid-column: col / span 2;
+    background-image: url(2pattern-tiny.png);
+}
+
+.content9{
+    grid-row:  row 5/ span 1;
+    grid-column: col 3/ span 2;
+    background-image: url(2pattern-tiny.png);
+}
+
+.content10{
+    grid-row:  row 5/ span 1;
+    grid-column: col 5/ span 1;
+    background-image: url(2pattern-tiny.png);
+}
+
+.content11{
+    grid-row:  row 6/ span 1;
+    grid-column: col / span 5;
+    background-image: url(2pattern-tiny.png);
+}
+
+.homepage-section-content-a{
+    text-decoration-line: none;
+}
+
+.homepage-section-titles{
+    color: white;
+    font-size: 40px;
+    padding-bottom: 0%;
+}
+
+.homepage-sections{
+    color: white;
+    font-size: 16px;
+    padding-top: 0;
+}
+
+.homepage-section-title{
+    font-size: 40px;
+    color: black;
+}
+
+.homepage-section{
+    color: black;
+    font-size: larger;
+    font-size: 16px;
+}

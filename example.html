@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="example.css">
+</head>
+
+<body>
+    <header class="homepage-header">
+        <div>
+            <h3 class="homepage-header-follower">Twitter and follower</h3>
+        </div>
+        <div><a class="homepage-header-title-a" href="index.html">
+                <h1 class="homepage-header-title">Grid By Example</h1>
+            </a></div>
+        <div>
+            <h3 class="homepage-header-description">Everything you need to learn CSS Grid Layout</h3>
+        </div>
+        <div class="homepage-header-navbar">
+            <nav>
+                <ul class="homepage-header-ul">
+                    <li class="homepage-header-li"><a class="homepage-header-li-a" href="startHere.html">Start Here</a>
+                    </li>
+                    <li class="homepage-header-li"><a class="homepage-header-li-a" href="example.html">Examples</a></li>
+                    <li class="homepage-header-li"><a class="homepage-header-li-a" href="pattern.html">Patterns</a></li>
+                    <li class="homepage-header-li"><a class="homepage-header-li-a" href="videoTutorial.html">Video tutorials</a></li>
+                    <li class="homepage-header-li"><a class="homepage-header-li-a" href="resources.html">Resources</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="startHere-header-wrapper">
+        <div class="start-header-content">
+            <h1 class="start-header-title">The Examples</h1>
+            <p class="start-header-description">The following examples include an image of how the example should look
+                in a supporting
+                browser, they each link to a page with more information about the technique being shown,
+                code and a CodePen of the example. Unless otherwise noted these examples work in any
+                browser supporting the up to date Grid Specification. They will not work in IE10 or 11.
+            </p>
+            <p class="start-header-description">For page layout examples see a collection of
+                <a href="#" style="color: black;"> page layouts here</a>.
+            </p>
+        </div>
+
+        <!--Content-->
+
+        <!--exp 1-->
+        <ul class="example-content-ul">
+            <li class="example">
+                <figure><a href="#"><img src="grid/1grid.png"></a></figure>
+                <h3 class="example-h3">Defining a Grid</h3>
+                <div class="description">To define a grid use new values of the display property `grid` or
+                    `inline-grid`. You can then
+                    create column and row tracks.</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 2-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/2grid.png"></a></figure>
+                <h3 class="example-h3">Line-based placement</h3>
+                <div class="description">Positioning items on the grid using line numbers</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 3-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/3grid.png"></a></figure>
+                <h3 class="example-h3">Line-based placement shorthand - grid-row and grid-column</h3>
+                <div class="description">Positioning items on the grid using the shorthand properties.</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 4-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/4grid.png"></a></figure>
+                <h3 class="example-h3">Line-based placement shorthand - grid-area</h3>
+                <div class="description">Positioning items on the grid using the shorthand properties.</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 5-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/5grid.png"></a></figure>
+                <h3 class="example-h3">Line-based placement spanning tracks</h3>
+                <div class="description">Positioning items which span more than one grid track.</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 6-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/6grid.png"></a></figure>
+                <h3 class="example-h3">Line-based placement spanning tracks with the span keyword</h3>
+                <div class="description">The span keyword gives us a way to span tracks without needing to specify start
+                    and end lines.</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 7-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/7grid.png"></a></figure>
+                <h3 class="example-h3">Line-based placement named lines</h3>
+                <div class="description">In addition to using line numbers we can name lines.</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 8-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/8grid.png"></a></figure>
+                <h3 class="example-h3">Line-based placement named lines with spans</h3>
+                <div class="description">You can give lines the same name and then use the span keyword to target lines of a certain name.</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 9-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/9grid.png"></a></figure>
+                <h3 class="example-h3">Using repeat notation</h3>
+                <div class="description">Save some time by describing repetitive track listings with repeat.</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 10-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/10grid.png"></a></figure>
+                <h3 class="example-h3">Explicit and Implicit Grid</h3>
+                <div class="description">The explicit grid is defined by `grid-template-rows` and `grid-template-columns`.</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 11-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/11grid.png"></a></figure>
+                <h3 class="example-h3">Defining Grid Areas</h3>
+                <div class="description">We can create named areas on the grid to put content into.</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 12-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/12grid.png"></a></figure>
+                <h3 class="example-h3">No clearing required</h3>
+                <div class="description">Items sit in their own rows on the grid therefore we do not need to clear them as with floats.</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 13-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/13grid.png"></a></figure>
+                <h3 class="example-h3">Redefining Grid Areas with Media Queries</h3>
+                <div class="description">As our layout is defined in CSS we can redefine the grid using media queries</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 14-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/14grid.png"></a></figure>
+                <h3 class="example-h3">Source Independence</h3>
+                <div class="description">Placement of items on the grid can be separate to their order in the source</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 15-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/15grid.png"></a></figure>
+                <h3 class="example-h3">Layering items</h3>
+                <div class="description">Items can be stacked, and the stacking order controlled with z-index</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 16-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/16grid.png"></a></figure>
+                <h3 class="example-h3">A grid item as a new positioning context</h3>
+                <div class="description">You can absolutely position items inside an area of the Grid.</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 17-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/17grid.png"></a></figure>
+                <h3 class="example-h3">Grid auto-placement</h3>
+                <div class="description">Grid will position grid items automatically on a grid created on the parent.</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 18-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/18grid.png"></a></figure>
+                <h3 class="example-h3">Grid auto-flow column</h3>
+                <div class="description">Items are placed in rows by default but you can specify to layout by column.</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 19-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/19grid.png"></a></figure>
+                <h3 class="example-h3">Grid auto-placement mixed with placed items</h3>
+                <div class="description">You can mix auto-placed items with those you give a position too</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 20-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/20grid.png"></a></figure>
+                <h3 class="example-h3">The auto-fill keyword in repeating track definitions</h3>
+                <div class="description">When using repeat notation you can use auto-fill rather than an integer to create as many tracks as will fill the container</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 21-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/21grid.png"></a></figure>
+                <h3 class="example-h3">Nested Grid</h3>
+                <div class="description">A grid item may become a grid container itself.</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 22-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/22grid.png"></a></figure>
+                <h3 class="example-h3">Implicit named grid lines</h3>
+                <div class="description">When using Named Areas implicit named lines are automatically created.</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 23-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/23grid.png"></a></figure>
+                <h3 class="example-h3">Using Order</h3>
+                <div class="description">Grid supports the order property also found in Flexbox.</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 24-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/24grid.png"></a></figure>
+                <h3 class="example-h3">Box alignment align-items</h3>
+                <div class="description">Using the box alignment property align-items</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 25-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/25grid.png"></a></figure>
+                <h3 class="example-h3">Box alignment justify-items</h3>
+                <div class="description">Using the box alignment property justify-items</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 26-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/26grid.png"></a></figure>
+                <h3 class="example-h3">Box alignment align-self</h3>
+                <div class="description">Using the box alignment property align-self</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 27-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/27grid.png"></a></figure>
+                <h3 class="example-h3">Box alignment justify-self</h3>
+                <div class="description">Using the box alignment property justify-self</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 28-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/28grid.png"></a></figure>
+                <h3 class="example-h3">minmax() in auto-fill repeating tracks</h3>
+                <div class="description">A grid that contains as many 200 pixel column tracks as will fit into the container with the remaining space shared equally between the columns.</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+            
+            <!--exp 29-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/29grid.png"></a></figure>
+                <h3 class="example-h3">minmax() and spanning columns and rows</h3>
+                <div class="description">A grid that contains as many 200 pixel column tracks as will fit into the container with the remaining space shared equally between the columns.</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 30-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/30grid.png"></a></figure>
+                <h3 class="example-h3">The auto-fill keyword with named grid lines</h3>
+                <div class="description">An auto-fill grid, positioning items using named lines and span.</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 31-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/31grid.png"></a></figure>
+                <h3 class="example-h3">A simple minmax example</h3>
+                <div class="description">Using minmax() to make the first column stretch after placing all three column tracks</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 32-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/32grid.png"></a></figure>
+                <h3 class="example-h3">Aligning the Grid</h3>
+                <div class="description">The total size of the tracks is smaller than the size of the grid container.</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 33-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/33grid.png"></a></figure>
+                <h3 class="example-h3">Aligning the grid with space-around and space-between</h3>
+                <div class="description">Using space-around and space-between may make grid areas and gutters larger than anticipated.</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 34-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/34grid.png"></a></figure>
+                <h3 class="example-h3">Multiple tracks in a track-list with auto-fill</h3>
+                <div class="description">The repeat syntax can take a track-list rather than a single value.</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 35-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/35grid.png"></a></figure>
+                <h3 class="example-h3">Multiple tracks in a track-list with auto-fill and minmax()</h3>
+                <div class="description">Using minmax() to create tracks that grow proportionally with multiple track listings.</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 36-->
+           <li class="example">
+                <figure><a href="#"><img src="grid/36grid.png"></a></figure>
+                <h3 class="example-h3">Percentage based grids and gaps</h3>
+                <div class="description">You can create grids using percentage values for tracks and gaps.</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 37-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/37grid.png"></a></figure>
+                <h3 class="example-h3">auto-fill vs. auto-fit</h3>
+                <div class="description">An example to demonstrate the difference between the auto-fill and auto-fit keywords in repeat notation</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            </ul>
+
+            <h2>CSS Grid Level 2 Examples</h2>
+
+            <ul class="example-content-ul2">
+            <!--exp 38-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/38grid.png"></a></figure>
+                <h3 class="example-h3">Subgrid on columns and rows</h3>
+                <div class="description">The subgrid value is used for grid-template-columns and grid-template-rows</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 39-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/39grid.png"></a></figure>
+                <h3 class="example-h3">Subgrid on columns, implicit grid rows</h3>
+                <div class="description">The subgrid value is used for grid-template-columns. The rows are created as an implicit grid.</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 40-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/40grid.png"></a></figure>
+                <h3 class="example-h3">Subgrid on rows, defined column tracks</h3>
+                <div class="description">The subgrid value is used for grid-template-rows. The columns are created as a normal track listing.</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 41-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/41grid.png"></a></figure>
+                <h3 class="example-h3">The subgrid can override the gap on the parent</h3>
+                <div class="description">The subgrid inherits the gap of the parent but it can be changed in the subgrid.</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 42-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/42grid.png"></a></figure>
+                <h3 class="example-h3">No implicit grid in subgridded dimension</h3>
+                <div class="description">Additional items will be forced into the last row of the subgrid</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 43-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/43grid.png"></a></figure>
+                <h3 class="example-h3">Line names on the parent are passed into the subgrid</h3>
+                <div class="description">If you define line names on the parent, these are passed into the subgrid and can be used to position things.</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 44-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/44grid.png"></a></figure>
+                <h3 class="example-h3">Line names on the child are added to those from the parent</h3>
+                <div class="description">If you define line names on the parent, these are passed into the subgrid and can be used to position things.</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 45-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/45grid.png"></a></figure>
+                <h3 class="example-h3">Padding is honored on the subgrid</h3>
+                <div class="description">Subgrids can have their own padding which will be deducted from the first and/or last tracks.</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+            <!--exp 46-->
+            <li class="example">
+                <figure><a href="#"><img src="grid/46grid.png"></a></figure>
+                <h3 class="example-h3">Margin is honored on the subgrid</h3>
+                <div class="description">Subgrids can have their own margin which will be deducted from the first and/or last tracks.</div>
+                <footer>
+                    <a href="#" class="color-a">View examples</a>|<a href="#" class="color-a">Read specification</a>
+                </footer>
+            </li>
+
+
+
+        </ul>
+    </div>
+
+    <footer class="homepage-footer">
+        <div class="homepage-footer-description">
+            <h3 class="h3">This is a project by Rachel Andrew. Take a look at some of the other things I make.</h3>
+            <ul class="homepage-footer-point-ul">
+                <li class="homepage-footer-point-li"><a href="#" class="footer-a"> Perch CMS</a> - the original Really
+                    Little CMS. Designed for speed and simple implementation.</li>
+                <li class="homepage-footer-point-li"><a href="#" class="footer-a">Notist</a> - slide sharing and much
+                    more. Create your public speaking portfolio.</li>
+                <li class="homepage-footer-point-li"><a href="#" class="footer-a">The CSS Workshop</a> - learn CSS
+                    Layout with me</li>
+            </ul>
+            <h3 class="h3">This site is hosted on <a href="#" class="footer-a"> Netlify</a> , thanks to their free
+                hosting for open source projects.</h3>
+        </div>
+    </footer>
+</body>
+
+</html>

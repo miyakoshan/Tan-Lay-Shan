@@ -1,0 +1,85 @@
+body{
+    text-align: center;
+}
+
+.homepage-header{
+    background-image: url(1pattern.png);
+    
+}
+
+.homepage-header-title{
+    color: whitesmoke;
+    padding-top:5% ;
+    padding-left: 5%;
+    font-weight: bolder;
+    font-size: 45px;
+    text-align: left;
+}
+
+.homepage-header-title-a{
+    text-decoration-line: none;
+}
+
+.homepage-header-description{
+    color: white;
+    padding-left: 5%;
+    font-size: 25px;
+    text-align: left;
+}
+
+.homepage-header-follower{
+    color: white;
+    float: right;
+    padding-right: 3%;
+}
+
+.homepage-header-navbar{
+    background-color: grey;
+    width: 100%;
+    margin-top: 5%;
+    opacity: 0.6;
+}
+
+.homepage-header-ul{
+    list-style-type: none;
+}
+
+.homepage-header-li{
+    display: inline-block;
+    padding: 1% 4% 1% 4%;
+}
+
+.homepage-header-li-a{
+    text-decoration-line: none;
+    color: black;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.homepage-header-li-a:hover{
+    background-color: whitesmoke;
+    /*padding: 8% 10% 8% 10%;*/
+    padding: 13px 8px;
+}
+
+.homepage-footer{
+    background-image: url(1pattern.png);
+    padding: 3% 7.5%;
+    margin-top: 10%;
+}
+
+.homepage-footer-description{
+    background-color: grey;
+    opacity: 0.6;
+    padding: 3% 8% 3% 3%;
+}
+
+.h3{
+    font-size: large;
+    font-weight: normal;
+}
+
+.footer-a{
+    color: black;
+}
+
